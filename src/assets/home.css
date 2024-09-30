@@ -1,0 +1,88 @@
+.home-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.page-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.nav-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.nav-button:hover {
+  background-color: #0056b3;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.select-product, .input-qty {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.total-price, .subtotal {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.btn {
+  padding: 5px 10px; /* Perbaikan untuk lebar tombol Add */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-add {
+  background-color: #28a745;
+  width: fit-content; /* Mengatur lebar tombol agar lebih proporsional */
+}
+
+.btn-delete {
+  background-color: #dc3545;
+}
+
+.btn-save {
+  background-color: #007bff;
+}
+
+.btn-clear {
+  background-color: #ffc107;
+}
+
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transaction-table th, .transaction-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.transaction-table th {
+  background-color: #f8f9fa;
+}
